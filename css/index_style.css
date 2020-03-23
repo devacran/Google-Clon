@@ -1,0 +1,120 @@
+root{
+    --color: rgb(240, 240, 240);
+
+}
+header{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 90px;
+}
+header nav{
+
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+header nav .nav-right-section{
+    height: auto;
+    width: 250px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a{
+    margin-right: 15px;
+    cursor: pointer;
+    color: black;
+}
+.main_content {
+    text-align: center;
+    height: 100%;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.logo{
+    padding-bottom: 20px;
+}
+.input{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content:space-between;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 7px #dfe1e5;
+  height: 40px;
+  margin: auto;
+  align-items: center;
+  
+}
+
+.search-icon{
+ align-items: flex-start;
+ margin-left: 10px;
+}
+.field{
+    align-items: flex-end;
+    margin-right: 20px;
+   }
+.input input{
+    border: none;
+    width: 430px;
+    outline: none;
+
+}
+.input:hover{
+    box-shadow: 0 0 10px #c8cace;
+cursor: pointer;
+
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+.button{
+    background-color: #f4f4f4  ;
+    border-radius: 3px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    margin-left: 10px;
+    color: #707378;
+}
+.button:hover{
+    box-shadow: 0 0 1px 1px #c6c6c6;
+}
+
+
+footer ul{
+    display: flex;
+    padding-left: 20px;
+    list-style: none;
+}
+footer ul li{
+    padding-left: 20px;
+}
+footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        background-color: #f4f4f4;
+        width:100%;
+        position: absolute;
+        bottom: 0;
+}
+.footer_left{
+    justify-self: right;
+    padding-right: 40px;
+}
